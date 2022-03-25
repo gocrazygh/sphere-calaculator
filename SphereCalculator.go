@@ -18,7 +18,7 @@ func sfa(f float64) float64 {
 }
 
 func vol(f float64) float64 {
-	return 1.33333333333 * math.Pow(f, 3) * math.Pi
+	return math.Pi * math.Pow(f, 3) * math.Pi
 }
 
 func dim(f float64) float64 {
