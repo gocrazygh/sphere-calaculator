@@ -26,7 +26,7 @@ func dim(f float64) float64 {
 }
 
 func main() {
-	// Taking the input from the user and converting it to a float
+	//Taking the input from the user and converting it to a float
 	s := bufio.NewScanner(os.Stdin)
 	fmt.Printf("Enter a sphere's radius: ")
 	s.Scan()
